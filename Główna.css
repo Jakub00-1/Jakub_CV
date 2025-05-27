@@ -1,0 +1,227 @@
+
+body {
+    transition: background-color 0.7s, color 0.7s;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.light-theme {
+      background-color: white;
+      color: black;
+    }
+.light-theme .wpr,
+.light-theme .Trzecia,
+.light-theme .Czwarty,
+.light-theme .button {
+      border: 2px solid #3CB371;
+    }
+
+    .dark-theme {
+      background-color: black;
+      color: white;
+    }
+
+.dark-theme .wpr,
+.dark-theme .Trzecia,
+.dark-theme .Czwarty,
+.dark-theme .button {
+      border: 2px solid red;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 40px;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-bottom: 20px;
+
+    }
+
+.Wp {
+    display:flex;
+    justify-content: space-between;
+    
+}
+ .light-theme h1 {
+    color:aliceblue;
+    text-align: center;
+    font-size:80px;
+    background-color: #3CB371;
+        
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 150px;
+    
+    
+}
+
+ .dark-theme h1 {
+    color:aliceblue;
+    text-align: center;
+    font-size:80px;
+    background-color: red;
+        
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 150px;
+    
+    
+}
+
+.light-theme .kon {
+    
+    
+    
+    background-color: #3CB371;
+        
+    padding-bottom: 100px;
+    padding: 10px;
+   
+    
+    
+}
+
+.dark-theme .kon {
+    
+    
+    
+    background-color: red;
+        
+    padding-bottom: 100px;
+    padding: 10px;
+    
+    
+    
+}
+
+.light-theme button {
+    color:black;
+    text-align: center;
+    font-size:40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #3CB371;    
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 150px;
+    
+    
+    
+}
+
+.dark-theme button {
+    color:aliceblue;
+    text-align: center;
+    font-size:40px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid red;    
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 150px;
+    
+    
+}
+
+.light-theme button:hover {
+    background-color: #3CB371;
+}
+
+.dark-theme button:hover {
+    background-color: red;
+}
+
+.light-theme .AT {
+  color: #3CB371; 
+}
+
+.dark-theme .AT {
+  color: red; 
+}
+
+
+
+.wpr {
+    
+    font-size:30px;
+          
+    padding-bottom: 5px;
+    padding: 30px;
+    margin-bottom: 150px;
+    border: 3px solid #3CB371;
+   
+    
+}
+
+.Pierwsza {
+    text-align: center;
+}
+
+span {
+    display: inline-block;   
+    font-size: 45px;
+    padding: 10px;
+    margin-bottom: 60px;
+    
+}
+
+.DRUGO {
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+
+.Trzecia {
+    
+    font-size:80px;
+    
+    width:550px;    
+    padding-bottom: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 3px solid #3CB371;
+    margin: 40px auto 0 auto;
+}
+
+.Czwarty {
+    
+    font-size:80px;
+    
+    width:550px;    
+    padding-bottom: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 3px solid #3CB371;
+    margin: 40px auto 0 auto;
+}
+
+.Zabawa {
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    margin-top: 80px;
+    
+}
+
+
+
+.kon {
+    background-color: #3CB371;
+   
+  
+}
+
+.Supa {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.Bat {
+    font-size: 20px;
+    display: block;
+    color: white;
+    margin-bottom: 40px;
+}
