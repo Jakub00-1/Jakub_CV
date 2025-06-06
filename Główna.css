@@ -6,6 +6,12 @@ body {
     max-width: 100%;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .light-theme {
       background-color: white;
       color: black;
@@ -176,7 +182,7 @@ span {
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -185,7 +191,7 @@ span {
 .Trzecia,
   .Czwarty {
     font-size: 1.rem;
-    padding: 1rem;
+    width: 100%;
     
     
   }
