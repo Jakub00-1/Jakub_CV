@@ -203,7 +203,7 @@ span {
   }
 
   .DRUGO {
-    flex-direction: column;
+    flex-direction: row;
     padding: 1rem;
   }
 
