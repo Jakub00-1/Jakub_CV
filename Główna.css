@@ -184,9 +184,10 @@ span {
 
 .Trzecia,
   .Czwarty {
-    font-size: 1.5rem;
-    width: 45%;
-    min-width: 200px;
+    font-size: 1.rem;
+    padding: 1rem;
+    
+    
   }
 
   .wpr {
